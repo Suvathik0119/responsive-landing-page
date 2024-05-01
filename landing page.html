@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#aboutus">ABOUT US</a></li>
+            <li><a href="#contect-us">CONTACT US</a></li>
+            <li><a href="#careers">CAREERS</a></li>
+        </ul>
+        <ul>
+            <li><img src="./Logo.svg"></li>
+            <li class="hideOnMobile"><a href="#services">SERVICES</a></li>
+            <li class="hideOnMobile"><a href="#aboutus">ABOUT US</a></li>
+            <li class="hideOnMobile"><a href="#contect-us">CONTACT US</a></li>
+            <li class="hideOnMobile"><a href="#careers">CAREERS</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <section id="services">
+        <div class="home">
+            <img src="./hero.jfif">
+            <div class="home-content">
+                <h1>We Crush Your Competitors, Goals, And Sales Records - Without The B.S.</h1>
+                <button>Get free consultation</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="aboutus">
+        <div class="about-us">
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="./web develop.png">
+                </div>
+                <div class="about-pharagraph">
+                    <h2>
+                        Web & Mobile App Development
+                    </h2>
+                    <p>
+                        Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which
+                        tailor content and engagement methods to respond to different intents shown by your potential
+                        customers who interact with your business online.
+                    </p>
+                    <button>
+                        LEARN MORE
+                    </button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contect-us">
+        <div class="contectus">
+            <div class="contect-content">
+                <div class="contect-pharagraph">
+                    <h2>
+                        Digital Strategy Consulting
+                    </h2>
+                    <p>
+                        Your digital strategy should complement the overall marketing strategy of the company. In online
+                        marketing, each component will never work in isolation and every business needs a different mix.
+                        We provide a clear concept and strategic overview to find the most efficient model for your
+                        business.
+                    </p>
+                    <button>
+                        LEARN MORE
+                    </button>
+                </div>
+
+                <div class="contect-img">
+                    <img src="./digital.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="careers">
+        <div class="careers">
+            <div class="careers-content">
+                <h2>Frequently asked questions</h2>
+                <div class="content-items">
+                    <div class="item-01">
+                        <h3>
+                            Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum
+                            ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor
+                            integer.
+                        </p>
+                    </div>
+                    <div class="item-02">
+                        <h3>
+                            Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?
+                        </h3>
+                    </div>
+                    <div class="item-03">
+                        <h3>
+                            Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <footer>
+            <div class="footer-content">
+                <!-- footer content 1st child -->
+                <div class="first-child">
+                    <!-- child 1st content  -->
+                    <div class="child-content1">
+                        <!-- logo -->
+                        <div class="con-logo">
+                            <img src="./Logo.svg">
+                        </div>
+                        <!-- pharagraph -->
+                        <p>
+                            Your goal is our target. Not anything in between. We use online marketing platforms and
+                            tools to achieve single objective - your business results.
+                        </p>
+                    </div>
+                    <!-- child 2nd content -->
+                    <div class="child-content2">
+                        <div class="child-content2-01">
+                            <h4>Our Technologies</h4>
+                            <li>ReactJS</li>
+                            <li>Gatsby</li>
+                            <li>NextJS</li>
+                            <li>NodeJS</li>
+                        </div>
+
+                        <div class="child-content2-02">
+                            <h4>Our Services</h4>
+                            <li>Social media Marketing</li>
+                            <li>Web & Mobile App Development</li>
+                            <li>Data & Analytics</li>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- footer 02nd child -->
+                <div class="secound-child">
+                    <p><span class="span01">Privacy Policy</span>|<span class="span02">Terms & Conditions</span></p>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script>
+        
+    </script>
+</body>
+
+</html>
